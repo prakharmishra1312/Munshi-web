@@ -9,7 +9,7 @@ class Login extends React.Component{
         return (
 
             <div>
-                <form className="form-inline">
+                <Form className="form-inline">
   <div className="form-group row">
     <label for="inputEmail" className="col-sm-2 col-form-label">Username</label>
     <div className="col-sm-10">
@@ -28,7 +28,7 @@ class Login extends React.Component{
     </div>
   </div>
   
-</form>
+</Form>
             </div>
         );
     }
